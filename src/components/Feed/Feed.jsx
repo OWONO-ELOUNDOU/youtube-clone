@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Feed.css'
 
 // Import of images
@@ -12,100 +13,101 @@ import thumbnail7 from '../../assets/thumbnail7.png'
 import thumbnail8 from '../../assets/thumbnail8.png'
 
 const Feed = () => {
+
   return (
     <div className="feed">
+        <Link to={`video/20/4521`} className='card'>
+            <img src={thumbnail1} alt="" srcSet="" />
+            <h2>Best channel to learn coding that help you to be a web developer</h2>
+            <h3>Greatstack</h3>
+            <p>15k views &bull; 2 days ago</p>
+        </Link>
         <div className='card'>
-            <img src={thumbnail1} alt="" srcset="" />
+            <img src={thumbnail2} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail2} alt="" srcset="" />
+            <img src={thumbnail3} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail3} alt="" srcset="" />
+            <img src={thumbnail4} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail4} alt="" srcset="" />
+            <img src={thumbnail5} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail5} alt="" srcset="" />
+            <img src={thumbnail6} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail6} alt="" srcset="" />
+            <img src={thumbnail7} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail7} alt="" srcset="" />
+            <img src={thumbnail8} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail8} alt="" srcset="" />
+            <img src={thumbnail1} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail1} alt="" srcset="" />
+            <img src={thumbnail2} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail2} alt="" srcset="" />
+            <img src={thumbnail3} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail3} alt="" srcset="" />
+            <img src={thumbnail4} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail4} alt="" srcset="" />
+            <img src={thumbnail5} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail5} alt="" srcset="" />
+            <img src={thumbnail6} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail6} alt="" srcset="" />
+            <img src={thumbnail7} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>
         </div>
         <div className='card'>
-            <img src={thumbnail7} alt="" srcset="" />
-            <h2>Best channel to learn coding that help you to be a web developer</h2>
-            <h3>Greatstack</h3>
-            <p>15k views &bull; 2 days ago</p>
-        </div>
-        <div className='card'>
-            <img src={thumbnail8} alt="" srcset="" />
+            <img src={thumbnail8} alt="" srcSet="" />
             <h2>Best channel to learn coding that help you to be a web developer</h2>
             <h3>Greatstack</h3>
             <p>15k views &bull; 2 days ago</p>

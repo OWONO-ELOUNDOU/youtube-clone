@@ -1,10 +1,10 @@
-import React from 'react'
 import './Video.css'
+import PlayVideo from "../../components/PlayVideo/PlayVideo.jsx";
 
 const Video = () => {
   return (
-    <div>
-      
+    <div className='play-container'>
+      <PlayVideo />
     </div>
   )
 }
