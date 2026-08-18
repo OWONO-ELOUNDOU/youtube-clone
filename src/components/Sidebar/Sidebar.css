@@ -52,3 +52,8 @@
     width: 50%;
     margin-bottom: 25px;
 }
+
+.side-link.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid red;
+}

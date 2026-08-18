@@ -12,7 +12,10 @@ import thumbnail6 from '../../assets/thumbnail6.png'
 import thumbnail7 from '../../assets/thumbnail7.png'
 import thumbnail8 from '../../assets/thumbnail8.png'
 
-const Feed = () => {
+const Feed = ({category}) => {
+    const fetchData = async () => {
+        const videoListUrl = `https://www.googleapis.com/youtube/v3/videos?part`
+    }
 
   return (
     <div className="feed">
